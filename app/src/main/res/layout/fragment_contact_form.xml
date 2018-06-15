@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_form_name"
+                android:paddingLeft="3dp"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/your_name"
+                android:layout_width="fill_parent"
+                android:layout_height="38dp"
+                android:layout_marginBottom="20dp"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:text="Prenom"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/your_firstname"
+                android:layout_width="fill_parent"
+                android:layout_height="38dp"
+                android:layout_marginBottom="20dp"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:text="@string/contact_form_tel"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/your_tel"
+                android:layout_width="fill_parent"
+                android:layout_height="38dp"
+                android:layout_marginBottom="20dp"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:text="@string/contact_form_email"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/your_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="38dp"
+                android:height="20dp"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/post_message"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:paddingBottom="1dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="1dp"
+                android:text="@string/contact_form_button"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary"
+                android:paddingBottom="1dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="1dp"
+                android:text="Accéder au jeu"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

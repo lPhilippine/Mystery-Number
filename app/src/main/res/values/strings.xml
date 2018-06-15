@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Mystery Number</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Paramétre</string>
+
+    <!--Contact Form-->
+
+    <string name="contact_form">Formulaire d\'inscription au concours</string>
+    <string name="contact_form_name">Nom</string>
+    <string name="contact_form_firstname">Prénom</string>
+    <string name="contact_form_email">EMail</string>
+    <string name="contact_form_tel">Numéro de Télèphone</string>
+    <string name="contact_form_button">Je m\'inscris au concours</string>
+    <string name="contact_form_post_message">Merci de patienter...</string>
+    <string name="contact_posted">Votre inscription au concours à été prise en compte.</string>
+
+    <!--Contact Form-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA-pUuaunFsuR112PJgXTNEX4NIHNj6_9E</string>
+    <string name="title_activity_market">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
